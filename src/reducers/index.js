@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux'
-//import breedList from './getBreedList'
-
+import jokelist from './getJoke'
+import createJoke from './createJoke'
 
 export default combineReducers({
+    jokelist,
+    createJoke
     
 })
